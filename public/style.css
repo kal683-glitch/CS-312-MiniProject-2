@@ -26,8 +26,17 @@ input{
     max-width: 100rem;
     min-width: 10rem;
 }
-@media (max-width: 360px){
+
+img{
+    width: 20rem !important;
+    height: auto;
+}
+@media (max-width: 600px){
     body{
         margin-left: 1rem !important;
+    }
+    img{
+        width: 10rem !important;
+        height: auto;
     }
 }
