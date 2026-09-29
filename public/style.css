@@ -1,0 +1,33 @@
+body{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    background-color: #E2F8E3;
+}
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+    color: #0B2D0C;
+}
+
+h2, label{
+    font-family: "Times New Roman", Times, serif;
+    color: #1A6141;
+}
+
+.btn ,.submitButton{
+    color: #FFFFFF ;
+    background-color: #7B2377 ;
+    border-color: #593da0 ;
+}
+
+input{
+    field-sizing: content;
+    max-width: 100rem;
+    min-width: 10rem;
+}
+@media (max-width: 360px){
+    body{
+        margin-left: 1rem !important;
+    }
+}
